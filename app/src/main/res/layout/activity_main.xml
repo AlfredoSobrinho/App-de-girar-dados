@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CF0707"
+    android:backgroundTint="#CA0000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="761dp"
+        android:layout_height="1333dp"
+        android:background="@drawable/cassino"
+        android:backgroundTint="#982929"
+        android:contentDescription="TODO"
+        android:scaleType="centerInside"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/cassino"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFC107"
+        android:textSize="135sp"
+        android:textStyle="italic"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1" />
+
+    <Button
+        android:id="@+id/botaod6"
+        android:layout_width="128dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="104dp"
+        android:background="#0E500C"
+        android:backgroundTint="#E12121"
+        android:text="@string/girar_at_6"
+        android:textColor="#F3E5F5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:iconTint="#316E39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1" />
+
+    <Button
+        android:id="@+id/botaod20"
+        android:layout_width="134dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/girar_at_20"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaod12" />
+
+    <Button
+        android:id="@+id/botaod12"
+        android:layout_width="129dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/girar_at_12"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaod6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

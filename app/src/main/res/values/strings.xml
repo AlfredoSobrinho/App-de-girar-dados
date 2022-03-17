@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">integrando a logica</string>
+    <string name="girar">Girar</string>
+    <string name="girar_at_6">Girar até 6</string>
+    <string name="girar_at_20">Girar até 20</string>
+    <string name="girar_at_12">Girar até 12</string>
+</resources>
